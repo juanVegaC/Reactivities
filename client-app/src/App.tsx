@@ -25,7 +25,7 @@ function App() {
         <List>
         {activities.map((activity: any) =>(
             <List.Item key={activity.id}>
-              {activity.title}
+              {activity.title} 
             </List.Item>
           ))}
         </List>
